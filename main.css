@@ -1,0 +1,53 @@
+.named {
+    text-align: center;
+    margin-top: 30px;
+}
+.wrapper{
+    margin-top: -100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+
+.block_1{
+    border: 2px;
+    border:solid;
+    border-color:green;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;   
+    padding: 20px ; 
+    display: grid;
+    grid-column:auto auto;
+    
+    
+}
+
+.flyBox{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+    background-color: aqua;
+    margin-top: 300px;
+    margin-left: 320px;
+    
+
+
+}
+input {
+    border: 1px;
+    border: solid;
+    border-color: aquamarine;
+    border-radius: 5px;
+}
+label {
+    margin-right: 10px;
+}
